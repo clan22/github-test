@@ -236,7 +236,9 @@ public class memberDAO {// JDBC관련 일 처리, dao : Database Access Object
 			psmt.setString(1, vo.getId());// ?에 들어갈 값을 채워줌
 			psmt.setString(2, vo.getPw());
 			
+			//************다시 sql구문 담지 말기
 			cnt = psmt.executeUpdate();
+			// -> 영향을 받은 행의 개수를 의미
 			
 			
 				

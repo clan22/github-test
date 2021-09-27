@@ -130,7 +130,7 @@ public class memberSystem {
 				
 			}else {
 			
-				System.out.println("프로그램을 종료합니다.");
+				System.out.println("수정.");
 				sc.close(); //Scanner를 닫아주는 기능
 				break;
 			}
